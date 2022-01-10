@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net;
-using Newtonsoft.Json;
+using Retorno.Models;
 
 namespace Retorno.Pages;
 
@@ -40,7 +40,8 @@ public class IndexModel : PageModel
         var answer = await httpNClient.GetAsync(new Uri($"{domain}cgi-bin/recordFinder.cgi?action=find&name=AccessControlCardRec&StartTime=1640995200&EndTime=1643673599"));
         var res = answer.Content.ReadAsStringAsync().Result;
 
-        Console.WriteLine(res);
+        ControlList ConList = new ControlList(res);
+        //Console.WriteLine(res);
     
         return Page();
     }
