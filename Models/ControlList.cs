@@ -1,5 +1,6 @@
 using System.IO;
 using System;
+using System.Regex;
 
 namespace Retorno.Models
 {
@@ -10,16 +11,35 @@ namespace Retorno.Models
 
         public ControlList(String r)
         {
-            String[] linhas = r.Split("\r\n");
+            
+            String[] linhas = r.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
             var found = linhas[0].Split("=");
             var max = int.Parse(found[1]);
 
-            String[] records;
+            String[] cac = new String[max];
 
-            for(int i=0; i<=max; i++)
+            for(int i=1; i<max; i++)
             {
+                var inicio = r.IndexOf("records["+i+"]");
+
+                if(i!=(max-1)){
+                    var end = r.IndexOf("records["+(i+1)+"]");
+                    cac[i] = r.Substring(inicio, (end-inicio));
+                }else{
+                    cac[i] = r.Substring(inicio);
+                }
+
+                using(Regex regex = new Regex()){
+                    cac[i] = regex.Replace(cac[i], "records["+(i+1)+"]");
+                }
                 
+
+                Console.WriteLine(cac[i]);
+
+                ControlCard c = new ControlCard();
+
+
             }
         }
 

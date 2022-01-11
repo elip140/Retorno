@@ -10,6 +10,15 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "System.Regex/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/System.Regex.dll": {}
+        },
+        "runtime": {
+          "lib/net20/System.Regex.dll": {}
+        }
       }
     }
   },
@@ -40,11 +49,24 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "System.Regex/1.0.0": {
+      "sha512": "vWq283vs39ugIBsIVApzOwsaTZWK/uRFHhRXZDsdcHZIzUO8FMeX8PpQUA3tq0GxHbNCEgLavXdSYgfG75A3BQ==",
+      "type": "package",
+      "path": "system.regex/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/System.Regex.dll",
+        "system.regex.1.0.0.nupkg.sha512",
+        "system.regex.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "System.Regex >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -89,6 +111,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "System.Regex": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
@@ -112,5 +138,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'System.Regex 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "System.Regex",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
