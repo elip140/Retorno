@@ -1,22 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QykDoebpz7owIlUr4z79ZNskp9aqsd5msKgjPYUNdDoEYpIQR1xKP/Zhyjy3W0xlUICgRxXxzzjO1VJlwqWCNg==",
+  "dgSpecHash": "MlLHyIcPGGKlF8dqVb0t4uyRGBufV76bM1Pax6aymAJk0aIZV47edk2O3WNjV806+fCLLcqD0BDlw+fMwP+P2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vieli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Vieli\\.nuget\\packages\\system.regex\\1.0.0\\system.regex.1.0.0.nupkg.sha512"
+    "C:\\Users\\Vieli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.Regex 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "System.Regex",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

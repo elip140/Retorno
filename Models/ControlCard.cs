@@ -31,7 +31,6 @@ namespace Retorno.Models
         public int MovimentacaoPessoal;
         public DateOnly Data;
 
-
-
+        static ControlCard(){}
     }
 }
