@@ -59,8 +59,17 @@ namespace Retorno.List
                 c.UserID = info[20].Substring(info[20].IndexOf("=")+1);
                 c.UserType = info[21].Substring(info[21].IndexOf("=")+1);
 
-                Add(c);
                 Console.WriteLine(String.IsNullOrEmpty(c.UserID));
+                try
+                {
+                    Add(c);
+                }
+                catch (System.Exception)
+                {
+                    Console.WriteLine("Erro"+c.Id);
+                    throw;
+                }
+                
             }
         }
 
@@ -83,13 +92,13 @@ namespace Retorno.List
             Lista.Remove(c);
         }
 
-        public void Update(ControlCard c)
+        public void Update(ControlCard Control)
         {
-            var index = Lista.FindIndex(p => p.Id == c.Id);
+            var index = Lista.FindIndex(p => p.Id == Control.Id);
             if (index == -1)
                 return;
 
-            Lista[index] = c;
+            Lista[index] = Control;
         }
     }
 }
