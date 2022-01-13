@@ -1,36 +1,83 @@
+using System.Text;
+using System.Text.Json;
 
 namespace Retorno.Models
 {
     public class ControlCard
     {
-        public int Id;
-        public int AccessControlCardRecID;
-        public String AttendanceState;
-        public String CardName;
-        public String CardNo;
-        public String CardType;
-        public String CreateTime;
-        public String Door;
-        public String ErrorCode;
-        public String Mask;
-        public String Method;
-        public String Notes;
-        public String Password;
-        public String ReaderID;
-        public String RecNo;
-        public String RemainingTimes;
-        public String ReservedInt;
-        public String ReservedString;
-        public String RoomNumber;
-        public String Status;
-        public String Type;
-        public String URL;
-        public String UserID;
-        public String UserType;
-        public int ColetorID;
-        public int MovimentacaoPessoal;
-        public DateOnly Data;
+        public int AccessControlCardRecID { get; set; }
+        public String AttendanceState { get; set; }
+        public String CardName { get; set; }
+        public String CardNo { get; set; }
+        public String CardType { get; set; }
+        public String CreateTime { get; set; }
+        public String Door { get; set; }
+        public String ErrorCode { get; set; }
+        public String Mask { get; set; }
+        public String Method { get; set; }
+        public String Notes { get; set; }
+        public String Password { get; set; }
+        public String ReaderID { get; set; }
+        public String RecNo { get; set; }
+        public String RemainingTimes { get; set; }
+        public String ReservedInt { get; set; }
+        public String ReservedString { get; set; }
+        public String RoomNumber { get; set; }
+        public String Status { get; set; }
+        public String Type { get; set; }
+        public String URL { get; set; }
+        public String UserID { get; set; }
+        public String UserType { get; set; }
+        public int ColetorID { get; set; }
+        public int MovimentacaoPessoal { get; set; }
+        public DateTime Data { get; set; }
 
-        static ControlCard(){}
+        public ControlCard(String res){
+            var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
+
+            AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
+            CardName = info[1].Substring(info[1].IndexOf("=")+1);
+            CardNo = info[2].Substring(info[2].IndexOf("=")+1);
+            CardType = info[3].Substring(info[3].IndexOf("=")+1);
+            CreateTime = info[4].Substring(info[4].IndexOf("=")+1);
+            Door = info[5].Substring(info[5].IndexOf("=")+1);
+            ErrorCode = info[6].Substring(info[6].IndexOf("=")+1);
+            Mask = info[7].Substring(info[7].IndexOf("=")+1);
+            Method = info[8].Substring(info[8].IndexOf("=")+1);
+            Notes = info[9].Substring(info[9].IndexOf("=")+1);
+            Password = info[10].Substring(info[10].IndexOf("=")+1);
+            ReaderID = info[11].Substring(info[11].IndexOf("=")+1);
+            RecNo = info[12].Substring(info[12].IndexOf("=")+1);
+            RemainingTimes = info[13].Substring(info[13].IndexOf("=")+1);
+            ReservedInt = info[14].Substring(info[14].IndexOf("=")+1);
+            ReservedString = info[15].Substring(info[15].IndexOf("=")+1);
+            RoomNumber = info[16].Substring(info[16].IndexOf("=")+1);
+            Status = info[17].Substring(info[17].IndexOf("=")+1);
+            Type = info[18].Substring(info[18].IndexOf("=")+1);
+            URL = info[19].Substring(info[19].IndexOf("=")+1);
+            UserID = info[20].Substring(info[20].IndexOf("=")+1);
+            UserType = info[21].Substring(info[21].IndexOf("=")+1);
+        }
+
+
+        public String Send(HttpClient client)
+        {
+            /*var values = new Dictionary<string, string>
+            {
+                { "thing1", "hello" },
+                { "thing2", "world" }
+            };*/
+
+            //var content = new FormUrlEncodedContent(values);
+
+            string jsonString = JsonSerializer.Serialize(this);
+
+            var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            //var result = client.PostAsync("", content).Result;
+
+            //var responseString = await response.Content.ReadAsStringAsync();
+
+            return jsonString;
+        }
     }
 }

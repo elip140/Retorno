@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net;
+using System.Text.Json;
 using Retorno.Models;
 using Retorno.List;
 
@@ -12,9 +13,7 @@ public class IndexModel : PageModel
 
     public String response = "";
 
-    public String Usu = "";
-    
-    public String Pass = "";
+    //public List<ControlCard> Lista = ControlList.GetAll();
 
     private readonly ILogger<IndexModel> _logger;
 
@@ -41,8 +40,36 @@ public class IndexModel : PageModel
         var answer = await httpNClient.GetAsync(new Uri($"{domain}cgi-bin/recordFinder.cgi?action=find&name=AccessControlCardRec&StartTime=1640995200&EndTime=1643673599"));
         var res = answer.Content.ReadAsStringAsync().Result;
 
-        ControlList ConList = new ControlList(res);
         //Console.WriteLine(res);
+
+        String[] linhas = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
+
+        var found = linhas[0].Split("=");
+        var max = int.Parse(found[1]);
+
+
+            for(int i=1; i<max; i++)
+            {
+                var inicio = res.IndexOf("records["+i+"]");
+                var information = "";
+
+                if(i!=(max-1)){
+                    var end = res.IndexOf("records["+(i+1)+"]");
+                    information = res.Substring(inicio, (end-inicio));
+                }else{
+                    information = res.Substring(inicio);
+                }
+
+                information = information.Replace("records["+i+"].",null);
+
+                var info = information.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
+
+                ControlCard c = new ControlCard(information);
+
+                string jsonString = JsonSerializer.Serialize(c);
+
+                Console.WriteLine(c.Send(httpNClient));
+            }
     
         return Page();
     }

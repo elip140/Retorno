@@ -16318,11 +16318,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Pages\\Teste.cshtml",
-      "TargetPath": "Pages\\Teste.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
