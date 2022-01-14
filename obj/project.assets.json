@@ -48,19 +48,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vieli\\.nuget\\packages\\": {}
+    "C:\\Users\\epcot\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
+      "projectUniqueName": "C:\\Users\\epcot\\Documents\\GitHub\\Retorno\\Retorno.csproj",
       "projectName": "Retorno",
-      "projectPath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
-      "packagesPath": "C:\\Users\\Vieli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\obj\\",
+      "projectPath": "C:\\Users\\epcot\\Documents\\GitHub\\Retorno\\Retorno.csproj",
+      "packagesPath": "C:\\Users\\epcot\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\epcot\\Documents\\GitHub\\Retorno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vieli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\epcot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -109,7 +109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

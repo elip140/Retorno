@@ -5,7 +5,7 @@ namespace Retorno.Models
 {
     public class ControlCard
     {
-        //public int AccessControlCardRecID { get; set; }
+        public int AccessControlCardRecID { get; set; }
         public String AttendanceState { get; set; }
         public String CardName { get; set; }
         public String CardNo { get; set; }
@@ -29,8 +29,8 @@ namespace Retorno.Models
         public String UserID { get; set; }
         public String UserType { get; set; }
         public int ColetorID { get; set; }
-        public int MovimentacaoPessoalID { get; set; }
-        //public DateTime Data { get; set; }
+        public int MovimentacaoPessoaID { get; set; }
+        public DateTime Data { get; set; }
 
         public ControlCard(String res){
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
@@ -59,7 +59,7 @@ namespace Retorno.Models
             UserType = info[21].Substring(info[21].IndexOf("=")+1);
 
             ColetorID = 1;
-            MovimentacaoPessoalID = 0;
+            MovimentacaoPessoaID = 0;
         }
 
 
