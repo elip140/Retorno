@@ -5,7 +5,7 @@ namespace Retorno.Models
 {
     public class ControlCard
     {
-        public int AccessControlCardRecID { get; set; }
+        //public int AccessControlCardRecID { get; set; }
         public String AttendanceState { get; set; }
         public String CardName { get; set; }
         public String CardNo { get; set; }
@@ -29,8 +29,8 @@ namespace Retorno.Models
         public String UserID { get; set; }
         public String UserType { get; set; }
         public int ColetorID { get; set; }
-        public int MovimentacaoPessoal { get; set; }
-        public DateTime Data { get; set; }
+        public int MovimentacaoPessoalID { get; set; }
+        //public DateTime Data { get; set; }
 
         public ControlCard(String res){
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
@@ -57,25 +57,20 @@ namespace Retorno.Models
             URL = info[19].Substring(info[19].IndexOf("=")+1);
             UserID = info[20].Substring(info[20].IndexOf("=")+1);
             UserType = info[21].Substring(info[21].IndexOf("=")+1);
+
+            ColetorID = 1;
+            MovimentacaoPessoalID = 0;
         }
 
 
-        public String Send(HttpClient client)
+        public async Task<String> Send(HttpClient client)
         {
-            /*var values = new Dictionary<string, string>
-            {
-                { "thing1", "hello" },
-                { "thing2", "world" }
-            };*/
-
-            //var content = new FormUrlEncodedContent(values);
-
             string jsonString = JsonSerializer.Serialize(this);
 
             var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-            //var result = client.PostAsync("", content).Result;
+            var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
-            //var responseString = await response.Content.ReadAsStringAsync();
+            return response.ToString();
 
             return jsonString;
         }
