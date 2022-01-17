@@ -12,7 +12,7 @@ public class IndexModel : PageModel
 {
     public HttpClient client = new HttpClient();
 
-    public List<String> Lista = new List<String>();
+    public List<Information> Lista = new List<Information>();
 
     public String response = "";
 
@@ -37,8 +37,11 @@ public class IndexModel : PageModel
         var credCache = new CredentialCache();
         credCache.Add(new Uri(domain), "Digest", new NetworkCredential(userName, password));
 
-        var StartTime="1640995200";
-        var EndTime = "1643673599";
+
+        Int32 StartTime = (Int32)(DateTime.Today.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+        Int32 EndTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+        /*var StartTime="1640995200";
+        var EndTime = "1643673599";*/
 
         var httpNClient = new HttpClient(new HttpClientHandler { Credentials = credCache });
         var answer = await httpNClient.GetAsync(new Uri($"{domain}cgi-bin/recordFinder.cgi?action=find&name=AccessControlCardRec&StartTime={StartTime}&EndTime={EndTime}"));
@@ -70,10 +73,41 @@ public class IndexModel : PageModel
                 
                 ControlCard c = new ControlCard(information);
 
-                
+
+                Lista.Add(new Information(){RecNo = c.RecNo, Response = "StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:\n{\nCache-Control: no-cache"});
                 //Console.WriteLine(c.Send(httpNClient).Result);
             }
     
         return Page();
     }
 }
+
+public class Information
+{
+    public String RecNo{get; set;}
+    public String Response{get; set;}
+}
+
+/*
+"StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:\n{\nCache-Control: no-cache"
+  +""
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Mon, 17 Jan 2022 19:09:37 GMT
+  Content-Type: application/json; charset=utf-8
+  Expires: -1
+  Content-Length: 102
+}"
+
+
+
+
+
+
+
+
+
+
+*/

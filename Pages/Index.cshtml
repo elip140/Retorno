@@ -23,5 +23,12 @@
                 <input type="submit" value="Teste" class="btn btn-primary" />
             </div>        
     </form>
-    @(Model.response)
+    <div class="row row-cols-auto justify-content-center text-center">
+    @foreach (var reg in Model.Lista)
+    {
+        <div class="card col m-2">
+            <p>RecNo = @(reg.RecNo)</p>
+            <p>@(reg.Response)</p>
+        </div>
+    }
 </div>
