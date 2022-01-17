@@ -12,7 +12,7 @@ public class IndexModel : PageModel
 {
     public HttpClient client = new HttpClient();
 
-    public List<ControlCard> Lista = new List<ControlCard>();
+    public List<String> Lista = new List<String>();
 
     public String response = "";
 
@@ -50,10 +50,9 @@ public class IndexModel : PageModel
 
         var found = linhas[0].Split("=");
         var max = int.Parse(found[1]);
-        max = 2;
 
 
-            for(int i=1; i<max; i++)
+            for(int i=3; i<max; i++)
             {
                 var inicio = res.IndexOf("records["+i+"]");
                 var information = "";
@@ -68,10 +67,11 @@ public class IndexModel : PageModel
                 information = information.Replace("records["+i+"].",null);
 
                 var info = information.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
-
+                
                 ControlCard c = new ControlCard(information);
 
-                Console.WriteLine(c.Send(httpNClient).Result);
+                
+                //Console.WriteLine(c.Send(httpNClient).Result);
             }
     
         return Page();

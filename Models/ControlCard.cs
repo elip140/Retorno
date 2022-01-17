@@ -5,7 +5,7 @@ namespace Retorno.Models
 {
     public class ControlCard
     {
-        public int AccessControlCardRecID { get; set; }
+        //public int AccessControlCardRecID { get; set; }
         public String AttendanceState { get; set; }
         public String CardName { get; set; }
         public String CardNo { get; set; }
@@ -30,7 +30,8 @@ namespace Retorno.Models
         public String UserType { get; set; }
         public int ColetorID { get; set; }
         public int MovimentacaoPessoaID { get; set; }
-        public DateTime Data { get; set; }
+        private DateTime CData { get; set; }
+        public String Data {get; set;}
 
         public ControlCard(String res){
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
@@ -58,6 +59,10 @@ namespace Retorno.Models
             UserID = info[20].Substring(info[20].IndexOf("=")+1);
             UserType = info[21].Substring(info[21].IndexOf("=")+1);
 
+
+            CData = DateTime.Now;
+            Data = CData.ToString("yyyy-MM-ddTHH:mm:ss.fffffffK");
+
             ColetorID = 1;
             MovimentacaoPessoaID = 0;
         }
@@ -68,9 +73,9 @@ namespace Retorno.Models
             string jsonString = JsonSerializer.Serialize(this);
 
             var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
+            //var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
-            return response.ToString();
+            //return response.ToString();
 
             return jsonString;
         }
