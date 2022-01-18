@@ -1,7 +1,0 @@
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\Retorno.exe
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\appsettings.Development.json
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\appsettings.json
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\Retorno.dll
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\Retorno.deps.json
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\Retorno.runtimeconfig.json
-C:\Users\Vieli\Documents\GitHub\Retorno\bin\Release\net6.0\publish\Retorno.pdb

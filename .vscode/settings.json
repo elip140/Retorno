@@ -1,5 +1,0 @@
-{
-    "appService.preDeployTask": "publish-release",
-    "appService.deploySubpath": "bin\\Release\\net6.0\\publish",
-    "appService.defaultWebAppToDeploy": "/subscriptions/5c77e2e3-2bcf-423d-82df-cbe55dc50e17/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Web/sites/Retorno"
-}

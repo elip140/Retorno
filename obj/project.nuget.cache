@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MlLHyIcPGGKlF8dqVb0t4uyRGBufV76bM1Pax6aymAJk0aIZV47edk2O3WNjV806+fCLLcqD0BDlw+fMwP+P2w==",
+  "dgSpecHash": "VLqYRDOPU9UoCCu6p62l/TzD0i+xd4Bt5BbNuWfRH4tUQ8isFFgKT9LqI69lYV7LkTS504kai9K5YSUTB+4ntg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Vieli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
