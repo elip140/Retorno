@@ -4,7 +4,6 @@ using System.Net;
 using System.Text;
 using System.Text.Json;
 using Retorno.Models;
-//using Retorno.List;
 
 namespace Retorno.Pages;
 
@@ -47,15 +46,13 @@ public class IndexModel : PageModel
         var answer = await httpNClient.GetAsync(new Uri($"{domain}cgi-bin/recordFinder.cgi?action=find&name=AccessControlCardRec&StartTime={StartTime}&EndTime={EndTime}"));
         var res = answer.Content.ReadAsStringAsync().Result;
 
-        //Console.WriteLine(res);
-
         String[] linhas = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
         var found = linhas[0].Split("=");
         var max = int.Parse(found[1]);
 
 
-            for(int i=3; i<max; i++)
+            for(int i=1; i<max; i++)
             {
                 var inicio = res.IndexOf("records["+i+"]");
                 var information = "";
@@ -74,7 +71,8 @@ public class IndexModel : PageModel
                 ControlCard c = new ControlCard(information);
 
 
-                Lista.Add(new Information(){RecNo = c.RecNo, Response = "StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:\n{\nCache-Control: no-cache"});
+                Lista.Add(new Information(){RecNo = c.RecNo, Response = c.Send(httpNClient).Result});
+                //Lista.Add(new Information(){RecNo = c.RecNo, Response = "StatusCode: 69420, ReasonPhrase: 'Teste', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:\n{\nCache-Control: no-cache"});
                 //Console.WriteLine(c.Send(httpNClient).Result);
             }
     
@@ -87,27 +85,3 @@ public class Information
     public String RecNo{get; set;}
     public String Response{get; set;}
 }
-
-/*
-"StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:\n{\nCache-Control: no-cache"
-  +""
-  Pragma: no-cache
-  Server: Microsoft-IIS/10.0
-  X-AspNet-Version: 4.0.30319
-  X-Powered-By: ASP.NET
-  Date: Mon, 17 Jan 2022 19:09:37 GMT
-  Content-Type: application/json; charset=utf-8
-  Expires: -1
-  Content-Length: 102
-}"
-
-
-
-
-
-
-
-
-
-
-*/
