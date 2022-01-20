@@ -23,12 +23,17 @@
                 <input type="submit" value="Teste" class="btn btn-primary" />
             </div>        
     </form>
-    <div class="row row-cols-auto justify-content-center text-center">
-    @foreach (var reg in Model.Lista)
+    <div class="row justify-content-center text-center">
+        <h2 class="display-3"> Camera ID: 3 (8084)</h2>
+    </div>
+    <form asp-page-handler="cam" method="POST" class="row row-cols-auto justify-content-center text-center">
+        <button class="btn btn-default">Enviar Todos da Camera 3</button>
+    @foreach (var reg in Model.CList)
     {
         <div class="card col m-2">
-            <p>RecNo = @(reg.RecNo)</p>
-            <p>@(reg.Response)</p>
+            <p>RecNo = </p>
+            <p>@(reg.GetId())</p>
         </div>
     }
+    </form>
 </div>

@@ -6,6 +6,9 @@ namespace Retorno.Models
     public class ControlCard
     {
         //public int AccessControlCardRecID { get; set; }
+        //public String CamID {get; set;}
+        private int Id {get; set;}
+
         public String AttendanceState { get; set; }
         public String CardName { get; set; }
         public String CardNo { get; set; }
@@ -33,7 +36,11 @@ namespace Retorno.Models
         private DateTime CData { get; set; }
         public String Data {get; set;}
 
-        public ControlCard(String res){
+        private int SendState {get; set;}
+
+        public ControlCard(String res, int CamID){
+            //String res = " ";
+            //int CamID = 1;
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
             AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
@@ -63,8 +70,20 @@ namespace Retorno.Models
             CData = DateTime.Now;
             Data = CData.ToString("yyyy-MM-ddTHH:mm:ss.fffffffK");
 
-            ColetorID = 1;
+            ColetorID = CamID;
             MovimentacaoPessoaID = 0;
+
+            //Data = " 2 ";
+            SendState = 1;
+        }
+
+        public void SetId(int NewId)
+        {
+            Id = NewId;
+        }
+        public int GetId()
+        {
+            return Id;
         }
 
 
@@ -73,11 +92,11 @@ namespace Retorno.Models
             string jsonString = JsonSerializer.Serialize(this);
 
             var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-            //var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
+            var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
-            //return response.ToString();
+            return response.ToString();
 
-            return jsonString;
+            //return jsonString;
         }
     }
 }
