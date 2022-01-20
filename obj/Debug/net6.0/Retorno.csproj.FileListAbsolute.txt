@@ -54,3 +54,4 @@ C:\Users\epcot\Documents\GitHub\Retorno\obj\Debug\net6.0\Retorno.csproj.CopyComp
 C:\Users\epcot\Documents\GitHub\Retorno\obj\Debug\net6.0\Retorno.dll
 C:\Users\epcot\Documents\GitHub\Retorno\obj\Debug\net6.0\ref\Retorno.dll
 C:\Users\epcot\Documents\GitHub\Retorno\obj\Debug\net6.0\Retorno.genruntimeconfig.cache
+C:\Users\epcot\Documents\GitHub\Retorno\bin\Debug\net6.0\omnisharp.json

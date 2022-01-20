@@ -10,12 +10,9 @@ namespace Retorno.Pages;
 public class IndexModel : PageModel
 {
     public HttpClient client = new HttpClient();
-
-    public List<Information> Lista = new List<Information>();
-
     public List<ControlCard> CList = ControlList.GetAll();
 
-    public String response = "";
+    public string response = "";
 
     private readonly ILogger<IndexModel> _logger;
 
@@ -77,17 +74,10 @@ public class IndexModel : PageModel
 
         return Page();
     }
-    public async Task<IActionResult> OnPostAsync()
+
+    public async Task<IActionResult> OnPostSendUnit()
     {
-        
+        response = "TESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTEST";
         return Page();
-
-               
     }
-}
-
-public class Information
-{
-    public String RecNo{get; set;}
-    public String Response{get; set;}
 }

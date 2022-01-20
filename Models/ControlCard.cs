@@ -39,8 +39,6 @@ namespace Retorno.Models
         private int SendState {get; set;}
 
         public ControlCard(String res, int CamID){
-            //String res = " ";
-            //int CamID = 1;
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
             AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
@@ -72,9 +70,6 @@ namespace Retorno.Models
 
             ColetorID = CamID;
             MovimentacaoPessoaID = 0;
-
-            //Data = " 2 ";
-            SendState = 1;
         }
 
         public void SetId(int NewId)
