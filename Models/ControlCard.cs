@@ -33,7 +33,7 @@ namespace Retorno.Models
         private DateTime CData { get; set; }
         public String Data {get; set;}
 
-        public ControlCard(String res){
+        public ControlCard(String res, int CamID){
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
             AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
@@ -63,21 +63,22 @@ namespace Retorno.Models
             CData = DateTime.Now;
             Data = CData.ToString("yyyy-MM-ddTHH:mm:ss.fffffffK");
 
-            ColetorID = 1;
+            ColetorID = CamID;
             MovimentacaoPessoaID = 0;
+        }
+
+        public string toJSON()
+        {
+            return JsonSerializer.Serialize(this);
         }
 
 
         public async Task<String> Send(HttpClient client)
         {
-            string jsonString = JsonSerializer.Serialize(this);
+            var content = new StringContent(toJSON(), Encoding.UTF8, "application/json");
+            var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
-            var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-            //var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
-
-            //return response.ToString();
-
-            return jsonString;
+            return response.ToString();
         }
     }
 }
