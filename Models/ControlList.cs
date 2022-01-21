@@ -17,6 +17,15 @@ namespace Retorno.Models
 
         public static List<ControlCard> GetAll() => Lista;
 
+        public static List<ControlCard> GetCam(int CamId)
+        {
+            CamList = new List<ControlCard>();
+            foreach(var reg in Lista)
+            {
+                
+            }
+        }
+
         public static ControlCard Get(int id) => Lista.FirstOrDefault(c => c.GetId() == id);
 
         public static void Add(ControlCard c)

@@ -20,11 +20,13 @@
         <input type="submit" value="Enviar todos da Camera 3" class="btn btn-primary" />
     @foreach (var reg in Model.CList)
     {
-        <form method="post" class="card col m-2">
+        <div class="card col-2 m-2">
+        <form method="post">
             <p>RecNo = @(reg.RecNo)</p>
             <p>@(reg.GetId())</p> 
             <button type="submit" asp-page-handler="SendUnit" asp-route-id="@reg.GetId()" class="btn btn-primary">Enviar</button>
         </form>
+        </div>
     }
     </form>
 </div>

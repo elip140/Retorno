@@ -81,17 +81,18 @@ namespace Retorno.Models
             return Id;
         }
 
-
+        public string toJSON()
+        {
+            return JsonSerializer.Serialize(this);
+        }
+        
+        
         public async Task<String> Send(HttpClient client)
         {
-            string jsonString = JsonSerializer.Serialize(this);
-
-            var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+            var content = new StringContent(toJSON(), Encoding.UTF8, "application/json");
             var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
             return response.ToString();
-
-            //return jsonString;
         }
     }
 }

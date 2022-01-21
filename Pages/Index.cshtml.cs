@@ -75,9 +75,26 @@ public class IndexModel : PageModel
         return Page();
     }
 
-    public async Task<IActionResult> OnPostSendUnit()
+    public async Task<IActionResult> OnPostSend()
     {
-        response = "TESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTESTTESTEST";
+        return Page();
+    }
+
+    public async Task<IActionResult> OnPostSendUnit(int id)
+    {
+        response = ControlList.Get(id).toJSON();
+        return Page();
+    }
+
+    public async Task<IActionResult> OnPostSendGroup()
+    {
+        response = ControlList.Get(id).toJSON();
+        return Page();
+    }
+
+    public async Task<IActionResult> OnPostSendAll()
+    {
+        response = ControlList.Get(id).toJSON();
         return Page();
     }
 }
