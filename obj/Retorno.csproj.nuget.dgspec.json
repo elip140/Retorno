@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {}
+    "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {
+    "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
+        "projectUniqueName": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
         "projectName": "Retorno",
-        "projectPath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
+        "projectPath": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
         "packagesPath": "C:\\Users\\Vieli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\obj\\",
+        "outputPath": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vieli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0-rc.2.21480.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
