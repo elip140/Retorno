@@ -20,11 +20,9 @@ List<String> Resultados = Mandar("http://187.87.242.13:8083/", usu, pass, 2).Res
 foreach(String res in Resultados)
     Console.WriteLine(res);
 
-
 Resultados = Mandar("http://187.87.242.13:8084/", usu, pass, 3).Result;
 foreach(String res in Resultados)
     Console.WriteLine(res);
-
 
 Resultados = Mandar("http://187.87.242.13:8085/", usu, pass, 4).Result;
 foreach(String res in Resultados)
@@ -50,7 +48,6 @@ async Task<List<String>> Mandar(String domain, String userName, String password,
     String[] linhas = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
     var found = linhas[0].Split("=");
     var max = int.Parse(found[1]);
-
 
     List<String> Lista = new List<String>();
     Lista.Add("Camera ID: "+CamId+"\n");
