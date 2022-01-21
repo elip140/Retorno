@@ -16,12 +16,23 @@ porta 8084 ColetorID=3
 porta 8085 ColetorID=4
 */
 
-Mandar("http://187.87.242.13:8083/", usu, pass, 2);
-Mandar("http://187.87.242.13:8084/", usu, pass, 3);
-Mandar("http://187.87.242.13:8085/", usu, pass, 4);
+List<String> Resultados = Mandar("http://187.87.242.13:8083/", usu, pass, 2).Result;
+foreach(String res in Resultados)
+    Console.WriteLine(res);
 
 
-async void Mandar(String domain, String userName, String password, int CamId)
+Resultados = Mandar("http://187.87.242.13:8084/", usu, pass, 3).Result;
+foreach(String res in Resultados)
+    Console.WriteLine(res);
+
+
+Resultados = Mandar("http://187.87.242.13:8085/", usu, pass, 4).Result;
+foreach(String res in Resultados)
+    Console.WriteLine(res);
+
+
+
+async Task<List<String>> Mandar(String domain, String userName, String password, int CamId)
 {
     var credCache = new CredentialCache();
     credCache.Add(new Uri(domain), "Digest", new NetworkCredential(userName, password));
@@ -41,7 +52,8 @@ async void Mandar(String domain, String userName, String password, int CamId)
     var max = int.Parse(found[1]);
 
 
-    Console.WriteLine("Camera ID: "+CamId+"\n\n");
+    List<String> Lista = new List<String>();
+    Lista.Add("Camera ID: "+CamId+"\n");
 
     // Separa cada registro
     for(int i=1; i<max; i++)
@@ -64,10 +76,10 @@ async void Mandar(String domain, String userName, String password, int CamId)
         ControlCard c = new ControlCard(information, CamId);
 
         // Manda o JSON e imprime o resultado
-        Console.WriteLine(c.toJSON()+"\n");
-
-        //c.Send(httpNClient).Result
+        Lista.Add(c.Send(httpNClient).Result+"\n");
     }
-    Console.WriteLine("\n\n\n");
+    Lista.Add("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
+
+    return Lista;
 }
 
