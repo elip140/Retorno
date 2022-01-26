@@ -1,9 +1,16 @@
-using Retorno;
+﻿using Retorno;
+using Retorno.Services;
 
-IHost host = Host.CreateDefaultBuilder(args)
+using IHost host = Host.CreateDefaultBuilder(args)
+    .UseWindowsService(options =>
+    {
+        options.ServiceName = ".NET Retorno Service";
+    })
     .ConfigureServices(services =>
     {
-        services.AddHostedService<Worker>();
+        services.AddHostedService<WindowsBackgroundService>();
+        services.AddHttpClient<RetornoService>();
+        //services.AddHttpClient<JokeService>();
     })
     .Build();
 

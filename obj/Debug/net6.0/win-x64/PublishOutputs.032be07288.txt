@@ -1,0 +1,4 @@
+C:\Eli-Dotnet\appsettings.Development.json
+C:\Eli-Dotnet\appsettings.json
+C:\Eli-Dotnet\Retorno.pdb
+C:\Eli-Dotnet\Retorno.exe

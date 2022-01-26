@@ -1,3 +1,10 @@
+dotnet publish --output "C:\Eli-Dotnet"
+sc.exe create ".NET Retorno Service" binpath="C:\Eli-Dotnet\Retorno.exe"
+sc.exe delete ".NET Retorno Service"
+
+
+
+
 using System.Net;
 using System.Text;
 using System.Text.Json;

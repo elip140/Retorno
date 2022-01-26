@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {}
+    "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {
+    "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
+        "projectUniqueName": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
         "projectName": "Retorno",
-        "projectPath": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
+        "projectPath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
         "packagesPath": "C:\\Users\\Vieli\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\obj\\",
+        "outputPath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vieli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,15 @@
           "dependencies": {
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[6.0.0-rc.2.21480.5, )"
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -55,12 +63,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[6.0.0-rc.2.21480.10, 6.0.0-rc.2.21480.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[6.0.0-rc.2.21480.5, 6.0.0-rc.2.21480.5]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[6.0.0-rc.2.21501.6, 6.0.0-rc.2.21501.6]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
