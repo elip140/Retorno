@@ -1,6 +1,8 @@
 using Retorno.Services;
 using System.Net.Http;
-using Retorno.lol;
+using IniParser;
+using IniParser.Model;
+using Retorno.Models;
 
 namespace Retorno;
 
@@ -10,7 +12,7 @@ public class WindowsBackgroundService : BackgroundService
     private readonly string usu = @"admin";
     private readonly string pass = @"admin@01";
 
-    //private Teste _te = new Teste();
+    FileIniDataParser parser = new FileIniDataParser();
 
 
     private readonly RetornoService _retornoService;
@@ -26,7 +28,27 @@ public class WindowsBackgroundService : BackgroundService
     {
         while (!stoppingToken.IsCancellationRequested)
         {
-            /*String resultado = _retornoService.GetRecords("http://187.87.242.13:8083/", usu, pass, 2).Result;
+            
+            IniData data = parser.ReadFile("config.ini");
+
+            foreach (var s in data.Sections)
+            {  
+                try
+                {
+                    Console.WriteLine(s.SectionName);
+                    Camera cam = new Camera(data[s.SectionName]["CamID"], data[s.SectionName]["URL"], data[s.SectionName]["Usuario"], data[s.SectionName]["Senha"]);
+
+                    Console.WriteLine(_retornoService.GetRecords(cam).Result);
+                }catch(Exception ex)
+                {
+                    Console.WriteLine("Erro ao enviar dados da Camera: "+s.SectionName+".\n");
+                    Console.WriteLine("Erro: "+ex+"\n\n");
+
+                }
+                
+            }
+
+             /*String ;
             _logger.LogInformation(resultado);
 
             resultado = _retornoService.GetRecords("http://187.87.242.13:8084/", usu, pass, 3).Result;
@@ -34,12 +56,10 @@ public class WindowsBackgroundService : BackgroundService
 
             resultado = _retornoService.GetRecords("http://187.87.242.13:8085/", usu, pass, 4).Result;
             _logger.LogInformation(resultado);*/
+           
 
-            foreach(var item in Teste.ReadIniFile("Teste/teste.ini")) {
-                Console.WriteLine(string.Format("{0}, {1}", item.Key, item.Value));
-            }
 
-            await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+            await Task.Delay(1000, stoppingToken);
         }
     }
 }

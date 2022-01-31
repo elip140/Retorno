@@ -8,8 +8,17 @@ sc.exe delete ".NET Retorno Service"
 
 Arquivo .ini
 Campos:
- - CamID/ColetorID
- - Porta
- - URL
- - Usuario
- - Senha
+ - CamID / ColetorID
+ - URL com Porta
+ - Usuario (Opicional)
+ - Senha (Opcional)
+
+ Caso o Usuario e a Senha não forem informado utiliza os valores padrões.
+
+
+TODO:
+- Switch no caso de não ter registro ou acesso invalido
+- Salvar log em caso de registro na API
+- Salvar Log em caso de erro
+
+
