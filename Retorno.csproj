@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-Retorno-2B035625-7981-45F4-B758-D5EC42407D69</UserSecretsId>
+    <NoWarn>NU1701</NoWarn>
 
     <OutputType>exe</OutputType>
     <PublishSingleFile>true</PublishSingleFile>

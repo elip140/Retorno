@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eXNNQG1a6f89artkzbdACphoG7wyIbZUOrnVBIKe4rCRaGx1UHa3ssWhZhDswRx9ZgXybekwxd3XaYHJSQAwzQ==",
+  "dgSpecHash": "yZ+4mC1uwQaVpw09wInDDb26ShycYSoZYekUFeHkuGqHx0cCdtItX/ol08vbPkv/h06fbEI0OM4FwfvOGMkZZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
   "expectedPackageFiles": [
@@ -38,20 +38,9 @@
     "C:\\Users\\Vieli\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.0\\system.serviceprocess.servicecontroller.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0-rc.2.21480.10.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0-rc.2.21480.5\\microsoft.netcore.app.runtime.win-x64.6.0.0-rc.2.21480.5.nupkg.sha512",
-    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0-rc.2.21501.6\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0-rc.2.21501.6.nupkg.sha512"
+    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0-rc.2.21501.6\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0-rc.2.21501.6.nupkg.sha512",
+    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0-rc.2.21480.10.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'ini-parser 2.5.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "ini-parser",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

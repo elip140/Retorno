@@ -36,7 +36,6 @@ namespace Retorno.Models
     
 }
 
-
 /*
 porta 8083 ColetorID=2
 porta 8084 ColetorID=3

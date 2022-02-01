@@ -8,10 +8,6 @@ namespace Retorno;
 
 public class WindowsBackgroundService : BackgroundService
 {
-    // Informações para login
-    private readonly string usu = @"admin";
-    private readonly string pass = @"admin@01";
-
     FileIniDataParser parser = new FileIniDataParser();
 
 
@@ -29,7 +25,7 @@ public class WindowsBackgroundService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             
-            IniData data = parser.ReadFile("config.ini");
+            /*IniData data = parser.ReadFile("config.ini");
 
             foreach (var s in data.Sections)
             {  
@@ -45,17 +41,9 @@ public class WindowsBackgroundService : BackgroundService
                     Console.WriteLine("Erro: "+ex+"\n\n");
 
                 }
-                
-            }
+            }*/
 
-             /*String ;
-            _logger.LogInformation(resultado);
-
-            resultado = _retornoService.GetRecords("http://187.87.242.13:8084/", usu, pass, 3).Result;
-            _logger.LogInformation(resultado);
-
-            resultado = _retornoService.GetRecords("http://187.87.242.13:8085/", usu, pass, 4).Result;
-            _logger.LogInformation(resultado);*/
+            Logs.ErrorLog("Teste");
            
 
 
