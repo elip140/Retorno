@@ -20,8 +20,8 @@ public class RetornoService
         Int32 StartTime = (Int32)(DateTime.Today.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
         Int32 EndTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
 
-        StartTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-        EndTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+        /*StartTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+        EndTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;*/
 
         // Request para o site
         var httpNClient = new HttpClient(new HttpClientHandler { Credentials = credCache });
@@ -68,8 +68,8 @@ public class RetornoService
             ControlCard c = new ControlCard(information, cam.CamID);
 
             // Manda o JSON e imprime o resultado
-            Lis = Lis+c.toJSON()+"\n";
-            //c.Send(httpNClient).Result
+            Lis = Lis+c.Send(httpNClient).Result+"\n";
+            //c.toJSON()
         }
         Lis = Lis+"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n";
 

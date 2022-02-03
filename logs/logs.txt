@@ -1,0 +1,583 @@
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 406, ReasonPhrase: 'Not Acceptable', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:37 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:39 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 406, ReasonPhrase: 'Not Acceptable', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:46:40 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 406, ReasonPhrase: 'Not Acceptable', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:49 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 406, ReasonPhrase: 'Not Acceptable', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:51 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:52 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 406, ReasonPhrase: 'Not Acceptable', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:52 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:52 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:52 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}
+StatusCode: 300, ReasonPhrase: 'Multiple Choices', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Cache-Control: no-cache
+  Pragma: no-cache
+  Server: Microsoft-IIS/10.0
+  X-AspNet-Version: 4.0.30319
+  X-Powered-By: ASP.NET
+  Date: Thu, 03 Feb 2022 19:58:53 GMT
+  Expires: -1
+  Content-Length: 0
+}

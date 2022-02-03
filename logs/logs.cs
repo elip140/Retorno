@@ -22,4 +22,21 @@ static class Logs
             Console.WriteLine("Erro ao criar log de erro: " + e.Message);
         }
     }
+
+    public static void CreateLog(String message)
+    {
+        try
+        {
+            StreamWriter createlog = new StreamWriter(CreateLogsPath, true);
+            
+            createlog.WriteLine(message);
+            
+            createlog.Close();
+        }
+        catch(Exception e)
+        {
+            ErrorLog("Erro ao criar log: " + e.Message);
+            Console.WriteLine("Erro ao criar log: " + e.Message);
+        }
+    }
 }

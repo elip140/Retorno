@@ -78,6 +78,11 @@ namespace Retorno.Models
             var content = new StringContent(toJSON(), Encoding.UTF8, "application/json");
             var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
+            //if()
+            var Status = response.StatusCode.ToString();
+            Logs.ErrorLog(Status);
+            //if()
+            Logs.CreateLog(response.ToString());
             return response.ToString();
         }
     }
