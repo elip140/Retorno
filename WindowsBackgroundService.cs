@@ -8,7 +8,7 @@ namespace Retorno;
 
 public class WindowsBackgroundService : BackgroundService
 {
-    FileIniDataParser parser = new FileIniDataParser();
+    
 
 
     private readonly RetornoService _retornoService;
@@ -25,25 +25,8 @@ public class WindowsBackgroundService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             
-            IniData data = parser.ReadFile("config.ini");
+            
 
-            foreach (var s in data.Sections)
-            {  
-                try
-                {
-                    //Console.WriteLine(s.SectionName);
-                    Camera cam = new Camera(data[s.SectionName]["CamID"], data[s.SectionName]["URL"], data[s.SectionName]["Usuario"], data[s.SectionName]["Senha"]);
-
-                    Console.WriteLine(_retornoService.GetRecords(cam).Result);
-                }catch(Exception ex)
-                {
-                    Console.WriteLine("Erro ao enviar dados da Camera: "+s.SectionName+".\n");
-                    Console.WriteLine("Erro: "+ex+"\n\n");
-
-                }
-            }
-
-            //Logs.ErrorLog("Teste");
            
 
 

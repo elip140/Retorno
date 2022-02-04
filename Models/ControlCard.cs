@@ -33,7 +33,7 @@ namespace Retorno.Models
         private DateTime CData { get; set; }
         public String Data {get; set;}
 
-        public ControlCard(String res, int CamID){
+        public ControlCard(String res){
             var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
             AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
@@ -63,7 +63,6 @@ namespace Retorno.Models
             CData = DateTime.Now;
             Data = CData.ToString("yyyy-MM-ddTHH:mm:ss.fffffffK");
 
-            ColetorID = CamID;
             MovimentacaoPessoaID = 0;
         }
 
@@ -81,8 +80,8 @@ namespace Retorno.Models
             //if()
             var Status = response.StatusCode.ToString();
             Logs.ErrorLog(Status);
-            //if()
-            Logs.CreateLog(response.ToString());
+            
+            Logs.CreateLog(response.ToString(), "TESTE");
             return response.ToString();
         }
     }

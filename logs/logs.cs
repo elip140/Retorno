@@ -13,7 +13,7 @@ static class Logs
         {
             StreamWriter errorlog = new StreamWriter(ErrorLogsPath, true);
             
-            errorlog.WriteLine(message);
+            errorlog.WriteLine("["+DateTime.Now+"] "+message);
             
             errorlog.Close();
         }
@@ -23,13 +23,13 @@ static class Logs
         }
     }
 
-    public static void CreateLog(String message)
+    public static void CreateLog(String message, String categoria)
     {
         try
         {
             StreamWriter createlog = new StreamWriter(CreateLogsPath, true);
             
-            createlog.WriteLine(message);
+            createlog.WriteLine("["+categoria+"] ["+DateTime.Now+"] "+message);
             
             createlog.Close();
         }
