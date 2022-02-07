@@ -31,12 +31,26 @@ public class RetornoService
                 //Cria uma nova camera com os dados do .ini
                 Camera cam = new Camera(data[s.SectionName]["CamID"], data[s.SectionName]["URL"], data[s.SectionName]["Usuario"], data[s.SectionName]["Senha"]);
 
-                
-                await cam.GetRecords(StartTime, EndTime);
+                //await cam.GetRecords(StartTime, EndTime);
+                //cam.SendAllNewRecords(_httpClient);
+
+                //List<String> List = new List<string>{ "123", "234", "235", "124"};
+                //Logs.RecordsLog(1, List);
+                //Logs.RecordsLog(2, List);
+                //Logs.RecordsLog(3, List);
+
+                /*List<String> Lista = new List<string>();
+                Lista = Logs.GetOldRecords(1);
+                String teste = "";
+                foreach(String r in Lista)
+                {
+                    teste = " "+r;
+                }
+                //Console.WriteLine(teste);*/
             }
             catch(Exception ex)
             {
-                Logs.ErrorLog("Erro ao enviar dados da Camera: "+s.SectionName+".\nErro: "+ex+"\n\n");
+                Logs.ErrorLog("Erro ao enviar dados da Camera: "+s.SectionName+".\nErro: "+ex+"\n\n", "ERRO DE ENVIO");
                 Console.WriteLine("Erro ao enviar dados da Camera: "+s.SectionName+".\n");
                 Console.WriteLine("Erro: "+ex+"\n\n");
 

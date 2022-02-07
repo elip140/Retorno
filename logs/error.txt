@@ -147,3 +147,135 @@ Ambiguous
 [04/02/2022 14:54:42] Ambiguous
 [04/02/2022 14:54:42] Ambiguous
 [04/02/2022 14:54:42] Ambiguous
+[ERRO DE ENVIO] [07/02/2022 16:00:29] Erro ao enviar dados da Camera: Cam1.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:29] Erro ao enviar dados da Camera: Cam2.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:29] Erro ao enviar dados da Camera: Cam3.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:30] Erro ao enviar dados da Camera: Cam1.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:30] Erro ao enviar dados da Camera: Cam2.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:30] Erro ao enviar dados da Camera: Cam3.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:31] Erro ao enviar dados da Camera: Cam1.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:31] Erro ao enviar dados da Camera: Cam2.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:31] Erro ao enviar dados da Camera: Cam3.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:32] Erro ao enviar dados da Camera: Cam1.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:32] Erro ao enviar dados da Camera: Cam2.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO DE ENVIO] [07/02/2022 16:00:32] Erro ao enviar dados da Camera: Cam3.
+Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
+   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
+   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
+
+
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
+[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.

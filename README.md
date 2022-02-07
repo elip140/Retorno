@@ -20,5 +20,13 @@ TODO:
 - Switch no caso de não ter registro ou acesso invalido
 - Salvar log em caso de registro na API
 - Salvar Log em caso de erro
+- Salvar RecNo para impedir multiplos POST do mesmo registro no records.txt
+- Ler records.txt e colocar no Camera.OldRecords
+
+[1]{ }[1]
+
+[2]{ }[2]
+
+[3]{ }[3]
 
 

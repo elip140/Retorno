@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.Json;
+using System.Net;
 
 namespace Retorno.Models
 {
@@ -72,17 +73,27 @@ namespace Retorno.Models
         }
 
 
-        public async Task<String> Send(HttpClient client)
+        public async void Send(HttpClient client)
         {
             var content = new StringContent(toJSON(), Encoding.UTF8, "application/json");
             var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
-            //if()
-            var Status = response.StatusCode.ToString();
-            Logs.ErrorLog(Status);
-            
-            Logs.CreateLog(response.ToString(), "TESTE");
-            return response.ToString();
+
+            var Status = response.StatusCode;
+            if(Status==HttpStatusCode.Created)
+            {
+                Logs.CreateLog("Registro número "+RecNo+" da camera "+ColetorID+" criado com sucesso.", "REGISTRO CRIADO");
+            }
+            else if(Status==HttpStatusCode.MultipleChoices)
+            {
+                Logs.ErrorLog("Registro "+RecNo+" já presente no sistema", "MULTIPLE CHOICES");
+                Logs.CreateLog("Registro "+RecNo+" já presente no sistema", "ERRO");
+            }
+            else
+            {
+                Logs.ErrorLog("Erro no ao enviar o registro "+RecNo+" tipo: "+Status.ToString()+".", "ERRO");
+                Logs.CreateLog("Erro no ao enviar o registro "+RecNo+" tipo: "+Status.ToString()+".", "ERRO");
+            }
         }
     }
 }

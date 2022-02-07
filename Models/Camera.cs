@@ -31,7 +31,7 @@ namespace Retorno.Models
 
             NewRecords = new List<ControlCard>();
 
-            OldRecords.DefaultIfEmpty("");
+            //OldRecords.DefaultIfEmpty("");
             
         }
 
@@ -80,7 +80,7 @@ namespace Retorno.Models
 
                 var info = information.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
-                //Cria o objeto com as informações e o id da camera     
+                //Cria o objeto com as informações e o id da camera e adiciona na lista da camera  
                 AddNewRec(new ControlCard(information));
             }
 
@@ -93,20 +93,25 @@ namespace Retorno.Models
             NewRecords.Add(c);
         }
 
-        public void SendAllNewRecords()
+        public async void SendAllNewRecords(HttpClient _httpClient)
         {
-            
+            foreach(ControlCard record in NewRecords)
+            {
+                record.Send(_httpClient);
+            }
             
         }
 
-        public Boolean CheckRecord(String RecNo)
+        public Boolean IsRecordOnList(String RecNo)
         {
             var r = OldRecords.FirstOrDefault(r => r==RecNo);
 
             if(String.IsNullOrEmpty(r)){
-                return true;
+                // Não está presente na lista
+                return false;
             }
-            return false;
+            // Está presente na lista
+            return true;
         }
         
     }
