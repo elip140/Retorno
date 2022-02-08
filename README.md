@@ -29,4 +29,6 @@ TODO:
 
 [3]{ }[3]
 
+[{"RecNo":"123","ColetorID":2},{"RecNo":"456","ColetorID":2}]
+
 

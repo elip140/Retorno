@@ -47,6 +47,10 @@ public class RetornoService
                     teste = " "+r;
                 }
                 //Console.WriteLine(teste);*/
+
+                List<RecLog> Lista = new List<RecLog>{new RecLog("123",cam.CamID), new RecLog("456",cam.CamID)};
+
+                Logs.RecordsLog(Lista);
             }
             catch(Exception ex)
             {

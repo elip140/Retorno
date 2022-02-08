@@ -1,7 +1,6 @@
 using System.IO;
-using System.Text.Json;
-using 
-
+//using System.Text.Json;
+using Newtonsoft.Json;
 namespace Retorno;
 
 static class Logs
@@ -43,37 +42,62 @@ static class Logs
         }
     }
 
-    public static void RecordsLog(int CamID, List<RecLog> NewRecords)
+    public static void RecordsLog(List<RecLog> NewRecords)
     {
         try
         {
             StreamReader reader = new StreamReader(RecordsPath);
-
             var json = reader.ReadToEnd();
+            reader.Close();
 
-            List<RecLog> items = JsonSerializer.Deserialize<RecLog>(json);
+            List<RecLog> OldRecords = new List<RecLog>();
+            var teste = JsonConvert.DeserializeObject<List<RecLog>>(json);
 
-            foreach(var j in items)
-            {
 
-            }
+            if(teste != null && teste.Count()!=0)
+                OldRecords.AddRange(teste);
+
+            if(NewRecords != null && NewRecords.Count()!=0)
+                OldRecords.AddRange(NewRecords);
+
+            string jsonString = JsonConvert.SerializeObject(OldRecords);
+
+            StreamWriter writer = new StreamWriter(RecordsPath);
+            writer.WriteLine(jsonString);
+            writer.Close();
         }
         catch(Exception e)
         {
-            ErrorLog("Erro ao atualizar registro no records.txt: " + e.Message, "ERRO");
-            Console.WriteLine("Erro ao atualizar registro no records.txt: " + e.Message);
+            ErrorLog("Erro ao atualizar registro no records.json: " + e.Message, "ERRO");
+            Console.WriteLine("Erro ao atualizar registro no records.json: " + e.Message);
         }
         
     }
     
-    public static List<String> GetOldRecords(int CamId)
+    public static List<RecLog> GetOldRecords(int CamId)
     {
-        List<String> OldRecs = new List<string>();
+        List<RecLog> OldRecs = new List<RecLog>();
 
         try
         {
+            StreamReader reader = new StreamReader(RecordsPath);
+
+            OldRecs = JsonConvert.DeserializeObject<List<RecLog>>(reader.ReadToEnd());
+
+            if(OldRecs==null || OldRecs.Count()==0)
+                return null;
             
 
+            List<RecLog> Recs = new List<RecLog>();
+            foreach(RecLog item in OldRecs)
+            {
+                if(item.ColetorID==CamId)
+                {
+                    Recs.Add(item);
+                }
+            }
+
+            return Recs;
         }
         catch(Exception e)
         {

@@ -268,3 +268,5 @@ C:\Users\Vieli\Documents\GitHub\Retorno\obj\Debug\net6.0\win-x64\Retorno.pdb
 C:\Users\Vieli\Documents\GitHub\Retorno\obj\Debug\net6.0\win-x64\Retorno.genruntimeconfig.cache
 C:\Users\Vieli\Documents\GitHub\Retorno\bin\Debug\net6.0\win-x64\Microsoft.Extensions.Http.dll
 C:\Users\Vieli\Documents\GitHub\Retorno\bin\Debug\net6.0\win-x64\INIFileParser.dll
+C:\Users\Vieli\Documents\GitHub\Retorno\bin\Debug\net6.0\win-x64\logs\records.json
+C:\Users\Vieli\Documents\GitHub\Retorno\bin\Debug\net6.0\win-x64\Newtonsoft.Json.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yZ+4mC1uwQaVpw09wInDDb26ShycYSoZYekUFeHkuGqHx0cCdtItX/ol08vbPkv/h06fbEI0OM4FwfvOGMkZZw==",
+  "dgSpecHash": "xR53m10h/qKv5rWlnXIS+1OISgNK+/SBlnxT4VVelWhAt0bvNR5uX6Lw3gVrDls2yGkGzxx4GS2Uue1I54/t0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vieli\\Documents\\GitHub\\Retorno\\Retorno.csproj",
   "expectedPackageFiles": [
@@ -32,15 +32,16 @@
     "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Vieli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.0\\system.serviceprocess.servicecontroller.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0-rc.2.21480.10.nupkg.sha512",
     "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0-rc.2.21480.5\\microsoft.netcore.app.runtime.win-x64.6.0.0-rc.2.21480.5.nupkg.sha512",
-    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0-rc.2.21501.6\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0-rc.2.21501.6.nupkg.sha512",
-    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0-rc.2.21480.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0-rc.2.21480.10.nupkg.sha512"
+    "C:\\Users\\Vieli\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0-rc.2.21501.6\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0-rc.2.21501.6.nupkg.sha512"
   ],
   "logs": []
 }
