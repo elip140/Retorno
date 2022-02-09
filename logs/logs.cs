@@ -11,6 +11,7 @@ static class Logs
 
     public static void ErrorLog(String message, String categoria)
     {
+        // Cria um log de Erro com horario no erro.txt
         try
         {
             StreamWriter errorlog = new StreamWriter(ErrorLogsPath, true);
@@ -27,6 +28,7 @@ static class Logs
 
     public static void CreateLog(String message, String categoria)
     {
+        // Cria um log com o horario no lods.txt
         try
         {
             StreamWriter createlog = new StreamWriter(CreateLogsPath, true);
@@ -44,6 +46,7 @@ static class Logs
 
     public static void RecordsLog(List<RecLog> NewRecords)
     {
+        // Salva no records.json os novos records
         try
         {
             StreamReader reader = new StreamReader(RecordsPath);
@@ -58,7 +61,16 @@ static class Logs
                 OldRecords.AddRange(teste);
 
             if(NewRecords != null && NewRecords.Count()!=0)
-                OldRecords.AddRange(NewRecords);
+            {
+                foreach(RecLog r in NewRecords)
+                {
+                    if(!(OldRecords.Contains(r))){
+                        OldRecords.Add(r);
+                    }
+                }
+            }
+
+
 
             string jsonString = JsonConvert.SerializeObject(OldRecords);
 
@@ -74,15 +86,17 @@ static class Logs
         
     }
     
-    public static List<RecLog> GetOldRecords(int CamId)
-    {
-        List<RecLog> OldRecs = new List<RecLog>();
+
+    public static List<RecLog>? GetOldRecords(int CamId)
+    {// Pega todos os Registros do records.json e retorna uma lista com os que tem o mesmo ID da camera
+        List<RecLog>? OldRecs = new List<RecLog>();
 
         try
         {
             StreamReader reader = new StreamReader(RecordsPath);
 
             OldRecs = JsonConvert.DeserializeObject<List<RecLog>>(reader.ReadToEnd());
+            reader.Close();
 
             if(OldRecs==null || OldRecs.Count()==0)
                 return null;
@@ -108,102 +122,3 @@ static class Logs
         return OldRecs;
     }
 }
-
-
-
-
-
-
-/*
-public static void RecordsLog(int CamID, List<String> NewRecords)
-    {
-        try
-        {
-            StreamReader reader = new StreamReader(RecordsPath);
-            String records = reader.ReadToEnd();
-
-            int start = records.IndexOf("}["+CamID+"](");
-            int end = records.IndexOf(")", start);
-
-            start = start+("}["+CamID+"]").Length;
-
-            String num = records.Substring(start, end-start);
-            
-            Console.WriteLine(("}["+CamID+"]").Length);
-            reader.Close();
-
-            using (StreamWriter recLog = new StreamWriter(RecordsPath))
-            {
-                foreach(String r in NewRecords)
-                {
-                    records = records.Replace("}["+CamID+"]", r+", }["+CamID+"]");
-                }
-
-                recLog.Write(records);
-
-                recLog.Close();
-            }
-        }
-        catch(Exception e)
-        {
-            ErrorLog("Erro ao atualizar registro no records.txt: " + e.Message, "ERRO");
-            Console.WriteLine("Erro ao atualizar registro no records.txt: " + e.Message);
-        }
-        
-    }
-    
-    public static List<String> GetOldRecords(int CamId)
-    {
-        List<String> OldRecs = new List<string>();
-
-        try
-        {
-            StreamReader reader = new StreamReader(RecordsPath);
-            String input = reader.ReadToEnd();
-            reader.Close();
-
-            int start = input.IndexOf("["+CamId+"]{");
-
-            if(start>=0)
-            {
-                int end = input.IndexOf(", }["+CamId+"]");
-
-                int i = 0;
-
-                
-                while(start<end || i<=5){
-                    //Console.WriteLine(start);
-                    int endRec = input.IndexOf(", ", start+2);
-                    OldRecs.Add(input.Substring(start, (endRec-start-2)));
-
-                    //Console.WriteLine(endRec-start);
-                    start = endRec;
-                    
-
-                    i++;
-                }
-                
-            }
-            else
-            {
-                StreamWriter recLog = new StreamWriter(RecordsPath, true);
-                recLog.WriteLine("");
-                recLog.WriteLine("["+CamId+"]{ }["+CamId+"](1)");
-                recLog.Close();
-            }
-
-        }
-        catch(Exception e)
-        {
-            ErrorLog("Erro ao acessar as informações do records.txt: " + e.Message, "ERRO");
-            Console.WriteLine("Erro ao acessar as informações do records.txt: " + e.Message);
-        }
-        
-        return OldRecs;
-    }
-
-
-
-
-
-*/

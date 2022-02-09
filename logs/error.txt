@@ -1,335 +1,260 @@
-Ambiguous
-NotAcceptable
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-NotAcceptable
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-NotAcceptable
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-NotAcceptable
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-NotAcceptable
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[04/02/2022 14:54:42] Ambiguous
-[ERRO DE ENVIO] [07/02/2022 16:00:29] Erro ao enviar dados da Camera: Cam1.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:29] Erro ao enviar dados da Camera: Cam2.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:29] Erro ao enviar dados da Camera: Cam3.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:30] Erro ao enviar dados da Camera: Cam1.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:30] Erro ao enviar dados da Camera: Cam2.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:30] Erro ao enviar dados da Camera: Cam3.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:31] Erro ao enviar dados da Camera: Cam1.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:31] Erro ao enviar dados da Camera: Cam2.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:31] Erro ao enviar dados da Camera: Cam3.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:32] Erro ao enviar dados da Camera: Cam1.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:32] Erro ao enviar dados da Camera: Cam2.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO DE ENVIO] [07/02/2022 16:00:32] Erro ao enviar dados da Camera: Cam3.
-Erro: System.ArgumentNullException: Value cannot be null. (Parameter 'source')
-   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
-   at System.Linq.Enumerable.DefaultIfEmpty[TSource](IEnumerable`1 source, TSource defaultValue)
-   at Retorno.Models.Camera..ctor(String _camID, String _url, String _usuario, String _senha) in C:\Users\Vieli\Documents\GitHub\Retorno\Models\Camera.cs:line 34
-   at Retorno.Services.RetornoService.GetRecords() in C:\Users\Vieli\Documents\GitHub\Retorno\Services\RetornoService.cs:line 32
-
-
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:15] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:16] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:17] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [07/02/2022 16:01:18] Erro ao atualizar registro no record.txt: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.txt' because it is being used by another process.
-[ERRO] [08/02/2022 16:03:59] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:03:59] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:03:59] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:09] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:09] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:09] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:19] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:19] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:19] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:29] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:29] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:29] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:39] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:39] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:04:39] Erro ao atualizar registro no records.txt: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
-[ERRO] [08/02/2022 16:16:07] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:07] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:07] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:18] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:18] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:18] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:28] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:28] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:16:28] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:21:42] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:21:42] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:21:42] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:21:52] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:21:52] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:21:52] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:02] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:02] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:02] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:12] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:12] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:12] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:22] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:22] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:22] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:32] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:32] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:22:32] Erro ao atualizar registro no records.json: The JSON value could not be converted to Retorno.RecLog. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
-[ERRO] [08/02/2022 16:24:30] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:30] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:30] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:40] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:40] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:40] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:50] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:50] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:24:50] Erro ao atualizar registro no records.json: Each parameter in the deserialization constructor on type 'Retorno.RecLog' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. The match can be case-insensitive.
-[ERRO] [08/02/2022 16:53:32] Erro ao atualizar registro no records.json: Value cannot be null. (Parameter 'collection')
-[ERRO] [08/02/2022 16:53:32] Erro ao atualizar registro no records.json: Value cannot be null. (Parameter 'collection')
-[ERRO] [08/02/2022 16:53:32] Erro ao atualizar registro no records.json: Value cannot be null. (Parameter 'collection')
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1936 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1238 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1937 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1239 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1938 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1240 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1939 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1241 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1940 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1242 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1941 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1243 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1942 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 698 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1943 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 699 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1944 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 700 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1945 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1946 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1947 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1948 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1949 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1950 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1951 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1952 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1953 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1954 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1955 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1956 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1957 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1958 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1959 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1960 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1961 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1962 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1963 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1964 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1965 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1966 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1967 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1968 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1969 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1970 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1971 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1972 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1973 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1974 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1975 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1976 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1977 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:32:41] Registro 1978 já presente no sistema
+[ERRO] [09/02/2022 17:32:41] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:06] Registro 1936 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1238 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1239 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1937 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1240 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1938 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1241 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1939 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1242 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1940 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1243 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 698 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 699 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1942 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 700 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1943 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1944 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1945 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1946 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1947 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1948 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1949 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1950 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1951 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1952 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1953 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1954 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1955 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1956 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1957 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1958 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1959 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1960 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1961 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1962 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1963 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1964 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1965 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1966 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1967 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1968 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1969 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1970 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1971 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1972 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1973 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1974 já presente no sistema
+[ERRO] [09/02/2022 17:33:07] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:07] Registro 1975 já presente no sistema
+[ERRO] [09/02/2022 17:33:08] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:08] Registro 1976 já presente no sistema
+[ERRO] [09/02/2022 17:33:08] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:08] Registro 1977 já presente no sistema
+[ERRO] [09/02/2022 17:33:08] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:33:08] Registro 1978 já presente no sistema
+[ERRO] [09/02/2022 17:33:08] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1936 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1238 já presente no sistema
+[ERRO] [09/02/2022 17:34:34] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1239 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1937 já presente no sistema
+[ERRO] [09/02/2022 17:34:34] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1240 já presente no sistema
+[ERRO] [09/02/2022 17:34:34] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1241 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1939 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1242 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1940 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 698 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1243 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1941 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 699 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1942 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 700 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1943 já presente no sistema
+[ERRO] [09/02/2022 17:34:34] Erro ao atualizar registro no records.json: The process cannot access the file 'C:\Users\Vieli\Documents\GitHub\Retorno\logs\records.json' because it is being used by another process.
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1944 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1945 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1946 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1947 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1948 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1949 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1950 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1951 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:34] Registro 1952 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1953 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1954 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1955 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1956 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1957 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1958 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1959 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1960 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1961 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1962 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1963 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1964 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1965 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1966 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1967 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1968 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1969 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1970 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1971 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1972 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1973 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1974 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1975 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1976 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1977 já presente no sistema
+[MULTIPLE CHOICES] [09/02/2022 17:34:35] Registro 1978 já presente no sistema

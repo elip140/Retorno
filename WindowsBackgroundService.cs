@@ -28,8 +28,6 @@ public class WindowsBackgroundService : BackgroundService
             
             _retornoService.GetRecords();
            
-
-
             await Task.Delay(10000, stoppingToken);
             //TimeSpan.FromMinutes(1);
         }

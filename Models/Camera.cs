@@ -9,7 +9,7 @@ namespace Retorno.Models
         private String Usuario {get; set;}
         private String Senha {get; set;}
 
-        private List<String> OldRecords {get; set;}
+        public List<RecLog> OldRecords {get; set;}
 
         private List<ControlCard> NewRecords {get; set;}
 
@@ -31,8 +31,16 @@ namespace Retorno.Models
 
             NewRecords = new List<ControlCard>();
 
-            //OldRecords.DefaultIfEmpty("");
-            
+            var Oldlogs = Logs.GetOldRecords(CamID);
+
+            if(Oldlogs == null || Oldlogs.Count()==0)
+            {
+                OldRecords = new List<RecLog>();
+            }
+            else
+            {
+                OldRecords = Oldlogs;
+            }
         }
 
         public async Task<String> GetRecords(Int32 StartTime, Int32 EndTime)
@@ -81,7 +89,12 @@ namespace Retorno.Models
                 var info = information.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
                 //Cria o objeto com as informações e o id da camera e adiciona na lista da camera  
-                AddNewRec(new ControlCard(information));
+                ControlCard c = new ControlCard(information);
+
+                if(!(IsRecordOnList(c.RecNo)))
+                {
+                    AddNewRec(c);
+                }
             }
 
             return Lis;
@@ -95,18 +108,29 @@ namespace Retorno.Models
 
         public async void SendAllNewRecords(HttpClient _httpClient)
         {
+            List<RecLog> ListaRec = new List<RecLog>();
             foreach(ControlCard record in NewRecords)
             {
-                record.Send(_httpClient);
+                RecLog? r = await record.Send(_httpClient);
+
+                if(r!=null)
+                {
+                    OldRecords.Add(r);
+                    ListaRec.Add(r);
+                }
+
+                Logs.RecordsLog(ListaRec);
             }
             
         }
 
+        // Returns TRUE if is in the list, otherwise FALSE
         public Boolean IsRecordOnList(String RecNo)
         {
-            var r = OldRecords.FirstOrDefault(r => r==RecNo);
+            
+            var r = OldRecords.FirstOrDefault(r => r.RecNo==RecNo);
 
-            if(String.IsNullOrEmpty(r)){
+            if(r == null){
                 // Não está presente na lista
                 return false;
             }
