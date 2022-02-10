@@ -14,10 +14,10 @@ static class Logs
         // Cria um log de Erro com horario no erro.txt
         try
         {
+            Console.WriteLine(message);
+
             StreamWriter errorlog = new StreamWriter(ErrorLogsPath, true);
-            
             errorlog.WriteLine("["+categoria+"] ["+DateTime.Now+"] "+message);
-            
             errorlog.Close();
         }
         catch(Exception e)
@@ -39,8 +39,7 @@ static class Logs
         }
         catch(Exception e)
         {
-            ErrorLog("Erro ao criar log: " + e.Message, "ERRO");
-            Console.WriteLine("Erro ao criar log: " + e.Message);
+            Console.WriteLine("Erro ao criar log: " + e.Message, "ERRO");
         }
     }
 
@@ -57,8 +56,10 @@ static class Logs
             var teste = JsonConvert.DeserializeObject<List<RecLog>>(json);
 
 
-            if(teste != null && teste.Count()!=0)
+            if(teste != null && teste.Count()!=0){
                 OldRecords.AddRange(teste);
+            }
+
 
             if(NewRecords != null && NewRecords.Count()!=0)
             {
@@ -71,7 +72,6 @@ static class Logs
             }
 
 
-
             string jsonString = JsonConvert.SerializeObject(OldRecords);
 
             StreamWriter writer = new StreamWriter(RecordsPath);
@@ -81,7 +81,6 @@ static class Logs
         catch(Exception e)
         {
             ErrorLog("Erro ao atualizar registro no records.json: " + e.Message, "ERRO");
-            Console.WriteLine("Erro ao atualizar registro no records.json: " + e.Message);
         }
         
     }
@@ -116,7 +115,6 @@ static class Logs
         catch(Exception e)
         {
             ErrorLog("Erro ao acessar as informações do records.txt: " + e.Message, "ERRO");
-            Console.WriteLine("Erro ao acessar as informações do records.txt: " + e.Message);
         }
         
         return OldRecs;

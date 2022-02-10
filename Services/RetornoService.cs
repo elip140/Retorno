@@ -37,9 +37,6 @@ public class RetornoService
             catch(Exception ex)
             {
                 Logs.ErrorLog("Erro ao enviar dados da Camera: "+s.SectionName+".\nErro: "+ex+"\n\n", "ERRO DE ENVIO");
-                Console.WriteLine("Erro ao enviar dados da Camera: "+s.SectionName+".\n");
-                Console.WriteLine("Erro: "+ex+"\n\n");
-
             }
         }
     }

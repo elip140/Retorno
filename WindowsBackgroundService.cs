@@ -28,7 +28,7 @@ public class WindowsBackgroundService : BackgroundService
             
             _retornoService.GetRecords();
            
-            await Task.Delay(10000, stoppingToken);
+            await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
             //TimeSpan.FromMinutes(1);
         }
     }

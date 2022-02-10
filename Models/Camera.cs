@@ -56,11 +56,14 @@ namespace Retorno.Models
             String[] linhas = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
         
+            
             switch(linhas.Count()) 
             {
                 case 1:
                     return "";
                 case 2:
+                    Logs.ErrorLog("Camera "+CamID+": Acesso negado ao servidor: Senha ou usuário inválidos", "ERRO DE LOGIN");
+                    Logs.CreateLog("Camera "+CamID+": Acesso negado ao servidor: Senha ou usuário inválidos", "ERRO DE LOGIN");
                     return "Senha invalida";
             }
 
@@ -118,9 +121,9 @@ namespace Retorno.Models
                     OldRecords.Add(r);
                     ListaRec.Add(r);
                 }
-
-                Logs.RecordsLog(ListaRec);
             }
+
+            Logs.RecordsLog(ListaRec);
             
         }
 
