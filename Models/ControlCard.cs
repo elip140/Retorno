@@ -35,36 +35,44 @@ namespace Retorno.Models
         public String Data {get; set;}
 
         public ControlCard(String res){
-            var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
+            // Separa os dados do Resultado e coloca em seus respectivos atributos
+            try
+            {
+                var info = res.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
 
-            AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
-            CardName = info[1].Substring(info[1].IndexOf("=")+1);
-            CardNo = info[2].Substring(info[2].IndexOf("=")+1);
-            CardType = info[3].Substring(info[3].IndexOf("=")+1);
-            CreateTime = info[4].Substring(info[4].IndexOf("=")+1);
-            Door = info[5].Substring(info[5].IndexOf("=")+1);
-            ErrorCode = info[6].Substring(info[6].IndexOf("=")+1);
-            Mask = info[7].Substring(info[7].IndexOf("=")+1);
-            Method = info[8].Substring(info[8].IndexOf("=")+1);
-            Notes = info[9].Substring(info[9].IndexOf("=")+1);
-            Password = info[10].Substring(info[10].IndexOf("=")+1);
-            ReaderID = info[11].Substring(info[11].IndexOf("=")+1);
-            RecNo = info[12].Substring(info[12].IndexOf("=")+1);
-            RemainingTimes = info[13].Substring(info[13].IndexOf("=")+1);
-            ReservedInt = info[14].Substring(info[14].IndexOf("=")+1);
-            ReservedString = info[15].Substring(info[15].IndexOf("=")+1);
-            RoomNumber = info[16].Substring(info[16].IndexOf("=")+1);
-            Status = info[17].Substring(info[17].IndexOf("=")+1);
-            Type = info[18].Substring(info[18].IndexOf("=")+1);
-            URL = info[19].Substring(info[19].IndexOf("=")+1);
-            UserID = info[20].Substring(info[20].IndexOf("=")+1);
-            UserType = info[21].Substring(info[21].IndexOf("=")+1);
+                AttendanceState = info[0].Substring(info[0].IndexOf("=")+1);
+                CardName = info[1].Substring(info[1].IndexOf("=")+1);
+                CardNo = info[2].Substring(info[2].IndexOf("=")+1);
+                CardType = info[3].Substring(info[3].IndexOf("=")+1);
+                CreateTime = info[4].Substring(info[4].IndexOf("=")+1);
+                Door = info[5].Substring(info[5].IndexOf("=")+1);
+                ErrorCode = info[6].Substring(info[6].IndexOf("=")+1);
+                Mask = info[7].Substring(info[7].IndexOf("=")+1);
+                Method = info[8].Substring(info[8].IndexOf("=")+1);
+                Notes = info[9].Substring(info[9].IndexOf("=")+1);
+                Password = info[10].Substring(info[10].IndexOf("=")+1);
+                ReaderID = info[11].Substring(info[11].IndexOf("=")+1);
+                RecNo = info[12].Substring(info[12].IndexOf("=")+1);
+                RemainingTimes = info[13].Substring(info[13].IndexOf("=")+1);
+                ReservedInt = info[14].Substring(info[14].IndexOf("=")+1);
+                ReservedString = info[15].Substring(info[15].IndexOf("=")+1);
+                RoomNumber = info[16].Substring(info[16].IndexOf("=")+1);
+                Status = info[17].Substring(info[17].IndexOf("=")+1);
+                Type = info[18].Substring(info[18].IndexOf("=")+1);
+                URL = info[19].Substring(info[19].IndexOf("=")+1);
+                UserID = info[20].Substring(info[20].IndexOf("=")+1);
+                UserType = info[21].Substring(info[21].IndexOf("=")+1);
 
 
-            CData = DateTime.Now;
-            Data = CData.ToString("yyyy-MM-ddTHH:mm:ss.fffffffK");
+                CData = DateTime.Now;
+                Data = CData.ToString("yyyy-MM-ddTHH:mm:ss.fffffffK");
 
-            MovimentacaoPessoaID = 0;
+                MovimentacaoPessoaID = 0;
+            }
+            catch(Exception ex)
+            {
+                Logs.ErrorLog("Erro ao separa os dados do ControlCard: "+ex, "ERRO AO CRIAR CONTROLCARD");
+            }
         }
 
         public string toJSON()
@@ -75,28 +83,38 @@ namespace Retorno.Models
 
         public async Task<RecLog?> Send(HttpClient client)
         {
-            var content = new StringContent(toJSON(), Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
+            // Manda o resgistro por POST para https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec 
+            // Retorna um RecLog com seu RecNo e ColetorID
+            try
+            {
+                var content = new StringContent(toJSON(), Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(new Uri($"https://www.adsportal.com.br/DirectCondo/api/AccessControlCardRecs/PostAccessControlCardRec"), content);
 
 
-            var Status = response.StatusCode;
-            if(Status==HttpStatusCode.Created)
-            {
-                Logs.CreateLog("Registro número "+RecNo+" da camera "+ColetorID+" criado com sucesso.", "REGISTRO CRIADO");
-                return new RecLog(RecNo, ColetorID);
+                var Status = response.StatusCode;
+                if(Status==HttpStatusCode.Created)
+                {
+                    Logs.CreateLog("Registro número "+RecNo+" da camera "+ColetorID+" criado com sucesso.", "REGISTRO CRIADO");
+                    return new RecLog(RecNo, ColetorID);
+                }
+                else if(Status==HttpStatusCode.MultipleChoices)
+                {
+                    Logs.ErrorLog("Registro "+RecNo+" já presente no sistema", "MULTIPLE CHOICES");
+                    Logs.CreateLog("Registro "+RecNo+" já presente no sistema", "ERRO");
+                    return new RecLog(RecNo, ColetorID);
+                }
+                else
+                {
+                    Logs.ErrorLog("Erro no ao enviar o registro "+RecNo+" tipo: "+Status.ToString()+".", "ERRO");
+                    Logs.CreateLog("Erro no ao enviar o registro "+RecNo+" tipo: "+Status.ToString()+".", "ERRO");
+                }
+                return null;
             }
-            else if(Status==HttpStatusCode.MultipleChoices)
+            catch(Exception ex)
             {
-                Logs.ErrorLog("Registro "+RecNo+" já presente no sistema", "MULTIPLE CHOICES");
-                Logs.CreateLog("Registro "+RecNo+" já presente no sistema", "ERRO");
-                return new RecLog(RecNo, ColetorID);
+                Logs.ErrorLog("Erro ao enviar o registro "+RecNo+" Excepition: "+ex, "ERRO AO ENVIAR REGISTRO");
+                return null;
             }
-            else
-            {
-                Logs.ErrorLog("Erro no ao enviar o registro "+RecNo+" tipo: "+Status.ToString()+".", "ERRO");
-                Logs.CreateLog("Erro no ao enviar o registro "+RecNo+" tipo: "+Status.ToString()+".", "ERRO");
-            }
-            return null;
         }
     }
 }
